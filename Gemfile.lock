@@ -1,0 +1,56 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.3)
+    alphadecimal (1.0.2)
+    capybara (0.4.0)
+      celerity (>= 0.7.9)
+      culerity (>= 0.2.4)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (>= 0.0.27)
+      xpath (~> 0.1.2)
+    celerity (0.8.4)
+    childprocess (0.1.4)
+      ffi (~> 0.6.3)
+    culerity (0.2.12)
+    diff-lcs (1.1.2)
+    ffi (0.6.3-java)
+    json_pure (1.4.6)
+    mime-types (1.16)
+    nokogiri (1.4.4.2-java)
+      weakling (>= 0.0.3)
+    rack (1.2.1)
+    rack-test (0.5.6)
+      rack (>= 1.0)
+    rspec (2.2.0)
+      rspec-core (~> 2.2)
+      rspec-expectations (~> 2.2)
+      rspec-mocks (~> 2.2)
+    rspec-core (2.2.1)
+    rspec-expectations (2.2.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.2.0)
+    rubyzip (0.9.4)
+    selenium-webdriver (0.1.1)
+      childprocess (= 0.1.4)
+      ffi (~> 0.6.3)
+      json_pure
+      rubyzip
+    weakling (0.0.4-java)
+    xpath (0.1.2)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  activesupport (~> 3.0)
+  alphadecimal
+  bundler (~> 1.0)
+  capybara (~> 0.4)
+  celerity (~> 0.8)
+  rspec (~> 2.2)
+  selenium-webdriver (~> 0.1)

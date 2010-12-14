@@ -1,0 +1,6 @@
+Test framework based on Capybara and RSpec to sanity check
+Papercheck, EditorLive and Proofreading against the staging server(s).
+
+It uses the celerity driver (which runs HTMLUnit -- a headless browser that is
+JS capable), but can be switched to Selenium/Webdriver by a single-line change
+in spec_helper.rb
